@@ -1,0 +1,16 @@
+{
+    "env": {
+      "APP_DEBUG": {
+        "value" : "true"
+      },
+      "APP_KEY": {
+        "value": "base64:Vflym1SMZnflcePE2tZcnhcN4kKuUKP16fOTil3q57o="
+      },
+      "APP_LOG_LEVEL": {
+          "value": "debug"
+      },
+      "APP_NAME": {
+          "value":"F1 Database"
+      }
+    }
+  }
