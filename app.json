@@ -1,16 +1,35 @@
 {
-    "env": {
-      "APP_DEBUG": {
-        "value" : "true"
-      },
-      "APP_KEY": {
-        "value": "base64:Vflym1SMZnflcePE2tZcnhcN4kKuUKP16fOTil3q57o="
-      },
-      "APP_LOG_LEVEL": {
-          "value": "debug"
-      },
-      "APP_NAME": {
-          "value":"F1 Database"
-      }
+  "name": "f1database",
+  "scripts": {
+  },
+  "env": {
+    "APP_DEBUG": {
+      "required": true
+    },
+    "APP_KEY": {
+      "required": true
+    },
+    "APP_LOG_LEVEL": {
+      "required": true
+    },
+    "APP_NAME": {
+      "required": true
+    },
+    "APP_URL": {
+      "required": true
     }
-  }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
