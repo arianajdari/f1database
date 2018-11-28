@@ -83,7 +83,6 @@
                 <div class="title m-b-md">
                    F1 Database
                 </div>
-
             </div>
         </div>
     </body>
